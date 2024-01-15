@@ -59,3 +59,31 @@ input:focus {
 h1 {
     color: hsl(8, 57%, 89%);
 }
+
+@media only screen and (max-width:600px) {
+    .search {
+        width: 95%;
+        margin: 5px;
+    }
+    .container {
+        width: 100%;
+        display: block;
+        padding: 10px;
+    }
+    #poster {
+        border-radius: 8px;
+        width: 430px;
+        height: 300px;
+        margin-right: 30px;
+    }
+    #desc {
+        width: 430px;
+    }
+    #title {
+        text-align: center;
+    }
+    #awards {
+        width: 420px;
+        padding-right: 10px;
+    }
+}

@@ -30,6 +30,7 @@ function searchMovie() {
     </div>
     
   <div class="container">
+        <img src="" id="poster" alt="">
         <div>
             <h2 id="title"></h2>
             <p id="desc"></p>
@@ -42,6 +43,6 @@ function searchMovie() {
             <p>Awards: <span id="awards"></span></p>
             <p>IMDB Ratings: <span id="ratings"></span></p>
         </div>
-        <img src="" id="poster" alt="">
+      
     </div>`;
 }
